@@ -1,0 +1,23 @@
+{
+	"name": "ls_bank_onpremserv",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\Users\\akash\\Downloads\\dataset",
+			"userId": "akash.vaddi",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_bank_kv",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "syspswd"
+			}
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeforOnprem",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

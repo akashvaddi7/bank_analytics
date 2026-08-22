@@ -1,0 +1,10 @@
+{
+	"name": "ls_bank_kv",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kv1-bank-dev.vault.azure.net/"
+		}
+	}
+}
