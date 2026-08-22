@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf1-bank-dev"
+		},
+		"ls_bank_adls_properties_typeProperties_url": {
+			"value": "https://sabankdev.dfs.core.windows.net/"
+		},
+		"ls_bank_kv_properties_typeProperties_baseUrl": {
+			"value": "https://kv1-bank-dev.vault.azure.net/"
+		},
+		"ls_bank_onpremserv_properties_typeProperties_host": {
+			"value": "C:\\Users\\akash\\Downloads\\dataset"
+		},
+		"ls_bank_onpremserv_properties_typeProperties_userId": {
+			"value": "akash.vaddi"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
