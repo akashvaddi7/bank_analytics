@@ -1,0 +1,25 @@
+{
+	"name": "pl_ingest_trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_ingest_onprem_to_raw",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 1,
+				"startTime": "2026-08-22T13:46:00",
+				"endTime": "2026-08-22T13:59:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
